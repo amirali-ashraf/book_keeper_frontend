@@ -25,7 +25,7 @@
   </div>
 </template>
 <script>
-import CreateModalComponent from '../../components/account_types_components/CreateModalComponent.vue'
+import CreateModalComponent from '../../components/account_type_components/CreateModalComponent.vue'
 
 
 var myHeaders = new Headers();
