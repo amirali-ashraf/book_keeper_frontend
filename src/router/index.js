@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import LoginView from "../views/LoginView.vue";
-import AccountTypesIndexView from "../views/account_types/AccountTypesIndexView.vue"
+// import AccountTypesIndexView from "../views/account_types/AccountTypesIndexView.vue"
 // import { getAuth } from "firebase/auth";
+import AccountTypeView from "@/views/AccountTypeView";
 
 const routes = [
   {
@@ -12,7 +13,7 @@ const routes = [
   {
     path: '/account_types',
     name: 'account_types',
-    component: AccountTypesIndexView
+    component: AccountTypeView
   }
   // {
   //   path: "/register",
